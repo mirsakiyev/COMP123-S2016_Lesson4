@@ -38,6 +38,7 @@ namespace COMP123_S2016_Lesson4
             Student tommy = new Student("Tommy",20,"123456789");         
             tommy.SaysHello();
             tommy.Studies();
+            tommy.Courses.Add(new Course("COMP123", "Programming"));
             Console.WriteLine(separator);
 
             //----------------------------------------------------------------------------------------------
